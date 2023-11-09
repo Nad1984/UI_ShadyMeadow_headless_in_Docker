@@ -27,7 +27,6 @@ class TestHomePage:
         print(picture.location)
         assert picture.is_displayed(), f"Logo picture is not displayed"
 
-
     @pytest.mark.tcid2
     def test_book_the_room(self):
         print("*******")
@@ -53,4 +52,4 @@ class TestHomePage:
         home_page.click_next_button()
         # time.sleep(2)
         home_page.select_date()
-        time.sleep(3)
+        # time.sleep(3)
