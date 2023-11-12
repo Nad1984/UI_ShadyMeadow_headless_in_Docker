@@ -13,7 +13,7 @@ def init_driver(request):
     global driver
     supported_browsers = ['chrome', 'ch', 'headlesschrome', 'firefox', 'ff', 'headlessfirefox']
     browser = os.environ.get('BROWSER', None)
-    # browser = 'chrome'
+    # browser = 'headlesschrome'
     if not browser:
         raise Exception("The environment variable 'BROWSER' must be set.")
     browser = browser.lower()

@@ -1,0 +1,6 @@
+# to create image:
+# docker build -f /Users/nadiiapatrusheva/PycharmProjects/UI_ShadyMeadow_headless/Dockerfile -t test:v2 .
+
+
+#  to run in docker, turn on 'docker desktop' and run:
+# docker run -e BASE_URL="https://automationintesting.online/" -e BROWSER=headlesschrome  test:v2
